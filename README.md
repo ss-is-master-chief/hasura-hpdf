@@ -7,7 +7,7 @@ Virtual Environment Used: Anaconda
 
 # UPDATES
 
-__08/12/17__
+* __08-12-2017__
 
 The code for Task 1 have been uploaded as 'task-1'
 
