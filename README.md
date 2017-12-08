@@ -13,7 +13,7 @@ The code for Task 1 have been uploaded as 'task-1'
 
 The respective tasks have been mentioned in each of the included .py files
 
-Developers may run them in virtual environments at localhost:5000 or http://127.0.0.1:5000/
+Developers may run them in virtual environments at http://localhost:5000/ or http://127.0.0.1:5000/
 
 # Resources
 
