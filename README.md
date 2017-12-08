@@ -15,7 +15,7 @@ The respective tasks have been mentioned in each of the included .py files
 
 Developers may run them in virtual environments at localhost:5000
 
-# Downloads
+# Resources
 
 * [Anaconda](https://www.anaconda.com/distribution/) - Anaconda Distribution
 
