@@ -1,0 +1,18 @@
+<h3>Authors and Count of Posts</h3>
+{% if data_1 and data_2 %}
+<ul>
+{% for d1 in data_1 %}
+{% set count = [0] %}
+    {% for d2 in data_2 %}
+        {% if d1.id==d2.userId %}
+          {% if count.append(count.pop() + 1) %} {%endif%}
+        {% endif %}
+    {% endfor %}
+    <li> {{d1.name}} : {{count[0]}}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p class="lead">
+  You should not see this msg, otherwise, check the code again.
+</p>
+{% endif %}

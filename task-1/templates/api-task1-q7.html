@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form HPDF</title>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    </head>
+    <body>
+       <div class='container'>
+           <h1>Forms</h1>
+        <form method='POST' action='{{url_for("form")}}'>
+            <div class='form-group'>
+            {{ form.csrf_token }}
+            {{ form.FName.label }} {{ form.FName }} <br>
+            {{ form.LName.label }} {{ form.LName }} <br>
+            {{ form.Age.label }} &emsp;&emsp;&emsp;&emsp;{{ form.Age }} <br>
+            <input type='submit' value='Submit'>
+            </div>
+            </form>
+        </form>
+        </div>
+    </body>
+</html>
+

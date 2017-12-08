@@ -1,0 +1,11 @@
+{% if data %}
+<ul>
+{% for d in data %}
+  <li>{{ d.name }}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p class="lead">
+  You should not see this message, otherwise, check the code again.
+</p>
+{% endif %}
